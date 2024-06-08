@@ -6,9 +6,9 @@
 }
 
 .App-header {
-  background-color: #282c34;
+
   padding: 20px;
-  color: white;
+
 }
 
 .settings {
@@ -24,6 +24,7 @@ button {
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
+  
 }
 
 .result {
