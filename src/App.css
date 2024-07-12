@@ -99,3 +99,12 @@ footer {
   font-size: 14px;
   line-height: 1.6;
 }
+
+@media (max-width: 768px) {
+  .settings {
+    grid-template-columns: 1fr;
+  }
+  .footer-section {
+    display: none;
+  }
+}
