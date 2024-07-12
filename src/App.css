@@ -13,8 +13,14 @@
 
 .settings {
   margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: left;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 500px;
 }
+
 
 .settings div {
   margin: 10px 0;
@@ -24,6 +30,8 @@ button {
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
+  border-radius: 25px;
+  border: none;
   
 }
 
@@ -32,9 +40,18 @@ button {
   font-size: 20px;
   word-break: break-all;
 }
+.result h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.result p{
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
 
 .result button {
-  margin-top: 10px;
+  margin-top: 15px;
   padding: 8px 16px;
   font-size: 14px;
 }
@@ -57,4 +74,19 @@ button {
 
 .strength.strong {
   color: green;
+}
+
+footer{
+  margin-top: 20px;
+  font-size: 14px;
+  color: #666;
+  padding: 20px;
+  border-top: 1px solid #ddd;
+  text-align: justify;
+}
+footer h1 {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-top: 3px;
+  color: black;
 }
